@@ -1,9 +1,4 @@
-class Object {
-  constructor(name, score) {
-    this.name = name;
-    this.score = score;
-  }
-}
+import Object from './object.js'
 
 export default class Data {
   constructor() {
