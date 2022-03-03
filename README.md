@@ -4,6 +4,9 @@
 
 > A simple design for a leaderboard list. Users can add names and scores and it will be desplayed as a list.
 
+## Screensot
+
+![screenshot](./Screenshot.png)
 ## Built With
 
 - HTML
