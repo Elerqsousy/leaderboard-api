@@ -1,1 +1,96 @@
 @import url(./css-reset.css);
+
+.page-title {
+  font-size: 80px;
+  margin: 40px 20px 80px;
+}
+
+.article-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 80px 20px;
+  justify-content: center;
+}
+
+.display-section,
+.add-section {
+  flex-direction: column;
+  width: 40%;
+  margin-right: 10%;
+}
+
+.display-section {
+  max-width: 500px;
+}
+
+.add-section {
+  max-width: 400px;
+}
+
+.scores-header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 30px;
+}
+
+.heading {
+  font-size: 30px;
+}
+
+.refresh {
+  width: fit-content;
+  height: auto;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.dark-bg {
+  background: #ddd;
+}
+
+.scores-list {
+  width: 100%;
+  max-height: 50vh;
+  min-height: 120px;
+  overflow: auto;
+}
+
+.add-heading {
+  margin: 0 0 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.input {
+  margin-bottom: 20px;
+  padding: 5px 5px;
+  width: 100%;
+}
+
+.submit {
+  width: fit-content;
+}
+
+.button {
+  padding: 1px 5px;
+  margin: 5px 0;
+}
+
+.green {
+  color: green;
+  text-align: center;
+}
+
+.list-item {
+  padding: 7px 7px;
+}
