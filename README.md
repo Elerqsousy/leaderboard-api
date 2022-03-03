@@ -1,50 +1,35 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Leaderboard
 
-> Sample Design of a book List.
+> A simple design for a leaderboard list. Users can add names and scores and it will be desplayed as a list.
 
 ## Built With
 
 - HTML
 - css
 - JS
+- Webpack
 
 ## Live Demo (if available)
 
-Check the [Live Demo](https://elerqsousy.github.io/awesome-books-es6-version/) deployed on github pages.
+Check the [Live Demo](https://elerqsousy.github.io/leaderboard-api/) deployed on github pages.
 
 
 ## Getting Started
 
 This is a simple static website made with HTML5, CSS, and JavaScript. There is not specific requirements for building the project.
-### Prerequisites
-
-### Setup
-
+## Setup
+- clone the repo locally 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
+- run "npm install" to install dependencies.
+- run "npm start" to run local live host.
+- run "npm run build" to bundle dist files.
 ## Authors
 
 👤 **Mahmoud Rizk**
 
 - GitHub: [@Elerqsousy](https://github.com/Elerqsousy)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -55,13 +40,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-Give a ⭐️ if you like this project!
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
