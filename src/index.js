@@ -1,5 +1,5 @@
 import './style.css';
-import Data from './modules/data';
+import Data from './modules/data.js';
 
 const list = new Data();
 

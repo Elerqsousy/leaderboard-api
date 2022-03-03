@@ -1,4 +1,4 @@
-import Object from './object.js'
+import Object from './object.js';
 
 export default class Data {
   constructor() {
