@@ -5,6 +5,12 @@
   margin: 40px 20px 80px;
 }
 
+.smaller {
+  font-size: 30px;
+  width: fit-content;
+  color: rgb(51, 186, 47);
+}
+
 .article-container {
   display: flex;
   flex-wrap: wrap;
