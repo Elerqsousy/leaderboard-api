@@ -1,10 +1,14 @@
+import './animation.css';
 import './style.css';
+import animation from "./modules/animation"
 import Data from './modules/data.js';
 
 const list = new Data();
 
 const addForm = document.querySelector('.form');
 const listContainer = document.querySelector('.scores-list');
+const animationContainer = document.querySelector('.message')
+// animationContainer.appendChild(animation)
 
 const displayItems = () => {
   listContainer.innerHTML = '';
