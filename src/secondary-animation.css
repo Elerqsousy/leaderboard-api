@@ -14,6 +14,7 @@ body {
   color: white;
   font-weight: 800;
 }
+
 canvas {
   position: absolute;
   right: 0;
