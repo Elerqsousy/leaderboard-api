@@ -6,13 +6,14 @@
     <title>leaderboard</title>
   <script defer src="main.js"></script></head>
   <body>
-    <h1 class="page-title">leaderboard <span class="smaller">RIZZY Games</span></h1>
-    
+    <h1 class="page-title">
+      RIZZY Games <br />
+      <span class="smaller">leaderboard</span>
+    </h1>
     <section class="article-container">
       <article class="display-section">
         <div class="scores-header-container">
           <h2 class="scores-heading heading">Recent scores</h2>
-          <button type="button" class="refresh border button">Refresh</button>
         </div>
         <div class="message"></div>
         <ul class="scores-list border">
@@ -39,7 +40,10 @@
             placeholder="Your score"
             required
           />
-          <input type="submit" class="submit border button" value="Submit" />
+          <button type="button" class="refresh display-none button">
+            <span class="flashed"> Refresh</span>
+          </button>
+          <input type="submit" class="submit button" value="Submit" />
         </form>
       </article>
     </section>
