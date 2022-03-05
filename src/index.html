@@ -7,12 +7,14 @@
   </head>
   <body>
     <h1 class="page-title">leaderboard <span class="smaller">RIZZY Games</span></h1>
+    
     <section class="article-container">
       <article class="display-section">
         <div class="scores-header-container">
           <h2 class="scores-heading heading">Recent scores</h2>
           <button type="button" class="refresh border button">Refresh</button>
         </div>
+        <div class="message"></div>
         <ul class="scores-list border">
           <li class="green list-item">List is empty</li>
         </ul>
@@ -30,7 +32,7 @@
             required
           />
           <input
-            type="text"
+            type="number"
             class="input border"
             id="score"
             name="score"
