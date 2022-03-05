@@ -1,0 +1,22 @@
+.blink {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+body {
+  background: #141414;
+  overflow: hidden;
+  color: white;
+  font-weight: 800;
+}
+
+canvas {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+}
