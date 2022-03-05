@@ -12,7 +12,7 @@ const animationContainer = document.querySelectorAll('.message');
 const refreshBtn = document.querySelector('.refresh');
 const flashed = document.querySelector('.flashed');
 
-const gameID = 'L5WwHwN7zdChbtO2i0g9';
+const gameID = 'tJ4X8roi0k80K6LGqq68';
 const baseURL = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameID}/scores/`;
 
 addForm.addEventListener('submit', async (e) => {
