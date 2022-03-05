@@ -6,19 +6,22 @@
     <title>leaderboard</title>
   </head>
   <body>
-    <h1 class="page-title">leaderboard</h1>
+    <h1 class="page-title">leaderboard <span class="smaller">RIZZY Games</span></h1>
+    
     <section class="article-container">
       <article class="display-section">
         <div class="scores-header-container">
           <h2 class="scores-heading heading">Recent scores</h2>
           <button type="button" class="refresh border button">Refresh</button>
         </div>
+        <div class="message"></div>
         <ul class="scores-list border">
           <li class="green list-item">List is empty</li>
         </ul>
       </article>
       <article class="add-section">
         <h2 class="add-heading heading">Recent scores</h2>
+        <div class="message"></div>
         <form action="#" class="form">
           <input
             type="text"
@@ -29,7 +32,7 @@
             required
           />
           <input
-            type="text"
+            type="number"
             class="input border"
             id="score"
             name="score"
