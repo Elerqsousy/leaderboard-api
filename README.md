@@ -2,7 +2,7 @@
 
 # Leaderboard
 
-> A simple design for a leaderboard list. Users can add names and scores and it will be desplayed as a list.
+> A simple design for a leaderboard list. All data are stored on Leaderboard API. Upon page load, List of scores get updated from the API. Upon submitting names and scores, names are added to the list of game scores on the API. Upon clicking refresh, list of names are updated and displayed.
 
 ## Screensot
 
@@ -13,6 +13,7 @@
 - css
 - JS
 - Webpack
+- Restful API 
 
 ## Live Demo (if available)
 
@@ -21,7 +22,7 @@ Check the [Live Demo](https://elerqsousy.github.io/leaderboard-api/) deployed on
 
 ## Getting Started
 
-This is a simple static website made with HTML5, CSS, and JavaScript. There is not specific requirements for building the project.
+This is a simple static website made with HTML5, CSS, and JavaScript. There is no specific requirements for building the project.
 ## Setup
 - clone the repo locally 
 ### Install
@@ -34,6 +35,8 @@ This is a simple static website made with HTML5, CSS, and JavaScript. There is n
 
 - GitHub: [@Elerqsousy](https://github.com/Elerqsousy)
 
+## Credits
+Loading animation is an edited version of [Tatsuya Azegami](https://codepen.io/42EG4M1)'s [animation](https://codepen.io/42EG4M1/pen/bVMzze).
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
